@@ -5,9 +5,9 @@ import { ArrowDown, AlertTriangle, Gift, Smartphone, Zap, CheckCircle2 } from 'l
 export default function App() {
   const [timeLeft, setTimeLeft] = useState(15 * 60); // 15分タイマー（疑似的な希少性）
   
-  // LINE友だち追加URL（仮のプレースホルダーとして後で置き換える想定）
-  // ユーザーがまだURLをくれていないので、一旦ハッシュにしておき、あとで教えられたら書き換える。
-  const LINE_URL = "#"; 
+  // LINE友だち追加URL
+  const LINE_URL = "https://line.me/R/ti/p/@572qxjdi"; 
+
 
   useEffect(() => {
     const timer = setInterval(() => {
